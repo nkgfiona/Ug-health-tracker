@@ -15,6 +15,6 @@ else:
     
     
 Districts = ["Kampala", "Entebbe", "Jinja", "Gulu", "Mbale"]
-#for district in Districts:
-for district in Districts[1:3]:
+for district in Districts:
+#for district in Districts[1:3]:
     print(district)
