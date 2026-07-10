@@ -1,5 +1,6 @@
 # database_connection.py
 
+import sys
 import pandas as pd
 from sqlalchemy import create_engine, text
 import config
@@ -13,11 +14,21 @@ def get_engine():
     Creates and returns a SQLAlchemy engine.
     All other functions use this as their connection.
     """
+    # Look at which script was executed in the terminal
+    main_script_running =sys.argv[0]
+    
+    # If main2.py or analysis2_from_db.py is running, use 'imdb'
+    if "2" in main_script_running:
+        target_db = "imdb"
+    else:
+        # Otherwise, fallback to your flat table database (e.g., health_db)
+        target_db = "health_db"
+        
     connection_string = (
         f"postgresql+psycopg2://"
         f"{config.DB_USER}:{config.DB_PASSWORD}"
         f"@{config.DB_HOST}:{config.DB_PORT}"
-        f"/{config.DB_NAME}"
+        f"/{target_db}"
     )
     engine = create_engine(connection_string)
     return engine
