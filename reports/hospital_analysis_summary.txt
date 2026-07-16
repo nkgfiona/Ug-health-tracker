@@ -1,0 +1,113 @@
+==========================================================
+  HOSPITAL ANALYSIS — AUTOMATED SUMMARY REPORT
+  Star Schema · imdb database · public schema
+==========================================================
+
+  Report Generated: 2026-07-15 15:57:48
+
+  Total Patients       :        200
+  Total Visits         :        200
+  Total Revenue        : $4,468,646.13
+  Avg Monthly Revenue  : $  319,189.01
+  Overall Avg Billing  : $   21,482.25
+  Overall Avg Stay     :     16.7 days
+
+----------------------------------------------------------
+  MONTHLY REVENUE
+----------------------------------------------------------
+  2019-Jun   $2,352,062.71  ████████████████████████████  (101 patients)
+  2019-Aug   $      392.91    (1 patients)
+  2019-Sep   $   44,393.00    (1 patients)
+  2020-May   $    2,149.82    (1 patients)
+  2020-Sep   $   27,554.92    (1 patients)
+  2020-Oct   $   44,695.85    (1 patients)
+  2021-Dec   $    4,802.62    (1 patients)
+  2022-Jan   $    2,942.48    (1 patients)
+  2022-Mar   $   20,886.34    (1 patients)
+  2023-Feb   $   27,466.32    (1 patients)
+  2023-May   $   40,207.46    (1 patients)
+  2023-Jun   $1,860,504.72  ██████████████████████  (87 patients)
+  2023-Sep   $    3,616.90    (1 patients)
+  2023-Oct   $   36,970.08    (1 patients)
+
+----------------------------------------------------------
+  TOP MEDICAL CONDITIONS BY COST
+----------------------------------------------------------
+  Hypertension         $2,606,628.66  ████████████████████████████  (112 patients)
+  Asthma               $  418,102.08  ████  (17 patients)
+  Cancer               $  417,208.43  ████  (16 patients)
+  Diabetes             $  360,732.21  ███  (18 patients)
+  Obesity              $  344,796.84  ███  (20 patients)
+  Arthritis            $  321,177.91  ███  (17 patients)
+
+----------------------------------------------------------
+  INSURANCE PROVIDERS
+----------------------------------------------------------
+  Jubilee               100 patients  $ 23,383.85 avg  ████████████████████████████
+  Medicare               89 patients  $ 20,747.25 avg  ████████████████████████
+  Blue Cross              4 patients  $ 43,150.31 avg  █
+  Aetna                   4 patients  $ 23,733.45 avg  █
+  UnitedHealthcare        1 patients  $ 13,677.98 avg  
+  Cigna                   2 patients  $  1,271.37 avg  
+
+----------------------------------------------------------
+  ADMISSION TYPES
+----------------------------------------------------------
+  Urgent          32 visits  $ 23,901.40 avg cost  11.3 days avg  ██████
+  Elective       133 visits  $ 22,896.12 avg cost  14.5 days avg  ████████████████████████████
+  Emergency       35 visits  $ 18,817.63 avg cost  12.3 days avg  ███████
+
+----------------------------------------------------------
+  TOP DOCTORS BY PATIENT VOLUME
+----------------------------------------------------------
+  Dr. Martinez             100 patients  $2,338,384.73 revenue  ████████████████████████████
+  Jason Hanson              85 patients  $1,787,134.53 revenue  ███████████████████████
+
+----------------------------------------------------------
+  MOST PRESCRIBED MEDICATIONS
+----------------------------------------------------------
+  Warfarin                  100 prescriptions  $ 23,383.85 avg  ████████████████████████████
+  Aspirin                    86 prescriptions  $ 20,822.69 avg  ████████████████████████
+  Ibuprofen                   4 prescriptions  $ 17,922.77 avg  █
+  Paracetamol                 4 prescriptions  $ 18,656.56 avg  █
+  Penicillin                  3 prescriptions  $ 34,083.14 avg  
+
+----------------------------------------------------------
+  TEST RESULTS DISTRIBUTION
+----------------------------------------------------------
+  Inconclusive       8 tests  ( 53.3%)  ██████████████████████████
+  Abnormal           6 tests  ( 40.0%)  ████████████████████
+  Normal             1 tests  (  6.7%)  ███
+
+----------------------------------------------------------
+  GENDER BREAKDOWN
+----------------------------------------------------------
+  Male          158 visits  $ 22,649.92 avg  ( 79.0%)  ███████████████████████████████████████
+  Female         42 visits  $ 21,189.49 avg  ( 21.0%)  ██████████
+
+----------------------------------------------------------
+  🏆 TOP DISTRICTS BY CASES
+----------------------------------------------------------
+  Pader                  100 cases  $2,338,384.73 revenue  ████████████████████████████  (1 patients)
+                        Cases per 100k: 47.6  Region: Northern  Rural
+  Kayunga                 85 cases  $1,787,134.53 revenue  ███████████████████████  (5 patients)
+                        Cases per 100k: 23.1  Region: Central  Rural
+
+----------------------------------------------------------
+  ⚠️ HIGH RISK REGIONS
+----------------------------------------------------------
+  🔴 Northern           100 cases  CRITICAL  1 districts  100.0 avg/district
+  🔴 Central             85 cases  CRITICAL  1 districts  85.0 avg/district
+
+----------------------------------------------------------
+  📊 DISTRICT OVERVIEW
+----------------------------------------------------------
+  Total Districts        : 40
+  Total Regions          : 4
+  Total Sub-Regions      : 4
+  Urban Districts        : 9
+  Rural Districts        : 31
+  Total Population       : 18,510,900
+  Avg Population/District: 462,773
+
+==========================================================
