@@ -10,7 +10,7 @@ Outcome: A reproducible, end-to-end analytics workflow capable of transforming r
 ---
 Dashboard Preview
 	Clinical & Workforce Insights	Geography & Population Insights
-Executive Overview - <img width="1593" height="884" alt="Screenshot 2026-09-18 140656" src="https://github.com/user-attachments/assets/41bf6bce-5ca4-48d2-a79f-2cb91635f64f" />
+Executive Overview - <img width="1686" height="938" alt="Screenshot 2026-09-18 140139" src="https://github.com/user-attachments/assets/d0ba888a-b27f-43fc-803d-db7df696cd93" />
 Clinical & Workforce Insights - <img width="1573" height="891" alt="Screenshot 2026-09-18 140433" src="https://github.com/user-attachments/assets/87476b9e-d1bc-4055-a2a7-f80900ce56cd" />
 Clinical & Workforce Insights	Geography & Population Insights - <img width="1593" height="884" alt="Screenshot 2026-09-18 140656" src="https://github.com/user-attachments/assets/1c56536e-b6a8-43b8-84c5-7d4061bdb59c" />
 ---
