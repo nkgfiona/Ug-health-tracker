@@ -105,12 +105,10 @@ Local database, manual refresh: the pipeline runs against a local PostgreSQL ins
 No public web link: Power BI's "Publish to web" requires tenant-admin rights not available on this account. Instead, the `.pbix` file linked above is available for direct download and just requires Windows and free Power BI Desktop, but gives full access to the actual interactive dashboard.
 ---
 Skills Demonstrated
-Data architecture: star schema design (10 dimensions + fact table), with a documented data dictionary
-ETL engineering: staging-to-warehouse transformation, idempotent pipeline design, debugging a real missing-dimension bug (doctor workload) traced from symptom to root cause
-SQL: 17 analytical queries including per-capita normalization and window-function ranking
-Power BI / DAX: RANKX with correct filter-context scoping, SVG-based custom visualizations, Shape Map choropleth mapping
-Data quality & integrity: identifying and disclosing a sampling artifact rather than presenting it as a genuine finding
-Domain expertise: 10+ years of real Uganda health surveillance experience (CDC/USAID-funded programmes at Makerere School of Public Health) informing realistic data modeling decisions
+Python & Pipeline Engineering: Scripted Python pipelines for synthetic data generation and staging-to-warehouse ETL; debugged and resolved data flow issues, including a missing-dimension bug in doctor workload metrics.
+SQL Analytics: Authored 17 analytical SQL queries utilizing window functions, rank metrics, and per-capita normalization.
+Power BI & DAX: Designed Shape Map choropleths and custom SVG visuals; authored filter-scoped DAX formulas (including RANKX) for interactive dashboards.
+Data Quality & Auditing: Identified, documented, and disclosed synthetic sampling artifacts to maintain strict reporting integrity.
 ---
 About
 Fiona Nakabugo Kabuka
