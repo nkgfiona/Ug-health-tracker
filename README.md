@@ -1,7 +1,7 @@
 Uganda Health Tracker
 End-to-End Healthcare Data Analytics
 Fiona Nakabugo Kabuka — Healthcare Data Analyst | M&E | Power BI | SQL | Data Management
-An end-to-end analytics pipeline that turns raw healthcare data into a decision-ready Power BI dashboard — built to demonstrate the full data lifecycle a health M&E system runs on, from data generation through a normalized PostgreSQL data warehouse to interactive analytics.
+An end-to-end analytics pipeline that turns raw healthcare data into a decision-ready Power BI dashboard, built to demonstrate the full data lifecycle a health M&E system runs on, from data generation through a normalized PostgreSQL data warehouse to interactive analytics.
 ---
 Overview
 Problem: Healthcare data requires cleaning, validation, and transformation before it can support decision-making raw records rarely arrive analysis-ready.
@@ -94,8 +94,8 @@ python main.py
 `main.py` regenerates the source data, rebuilds the schema, loads it, and runs the full analysis in that order, safe to re-run any time.
 ---
 Key Findings
-Malaria leads admissions, accounting for 216 of 1,000 cases (nearly 1 in 5) — consistent with published Uganda Ministry of Health morbidity data.
-Patient load is concentrated among a subset of doctors: the top 5 doctors each handled 21-25 patients, while the median doctor handled far fewer — a workload-distribution signal relevant to staffing decisions.
+Malaria leads admissions, accounting for 216 of 1,000 cases (nearly 1 in 5): consistent with published Uganda Ministry of Health morbidity data.
+Patient load is concentrated among a subset of doctors: the top 5 doctors each handled 21-25 patients, while the median doctor handled far fewer, a workload-distribution signal relevant to staffing decisions.
 Kampala recorded the highest district-level patient volume (62 visits, roughly double the 32-district average): driven by having two sampled hospitals rather than any real epidemiological difference (see Limitations).
 Rural districts account for 59.6% of patient visits despite holding only 39.3% of the sampled population: this looks like a striking access-to-care finding, but traces directly back to which facilities were sampled, not real healthcare-seeking behavior (see Limitations). This distinction and catching it is itself a demonstration of the kind of data-quality thinking this project is meant to show.
 ---
