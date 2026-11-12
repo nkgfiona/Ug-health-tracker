@@ -1,6 +1,6 @@
 Uganda Health Tracker
 End-to-End Healthcare Data Analytics
-Fiona Nakabugo Kabuka — Healthcare Data Analyst | M&E | Power BI | SQL | Data Management
+Fiona Nakabugo Kabuka - Healthcare Data Analyst | M&E | Power BI | SQL | Data Management
 An end-to-end analytics pipeline that turns raw healthcare data into a decision-ready Power BI dashboard, built to demonstrate the full data lifecycle a health M&E system runs on, from data generation through a normalized PostgreSQL data warehouse to interactive analytics.
 ---
 Overview
